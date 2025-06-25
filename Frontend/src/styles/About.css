@@ -1,0 +1,77 @@
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.about .aboutTop {
+  /* margin-top: 50px;
+  width: 100%;
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  margin-top: 50px;
+  height: 70%;
+  width: 70%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .aboutBottom {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutBottom p {
+  /* width: 1200px; */
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  
+}
+
+.about .aboutBottom h1 {
+  /* font-weight: 400;
+  font-size: 70px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px); */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+font-weight: 10;
+font-size: 50px;
+margin-left: 30px;
+}
+
+/* About.css */
+.backButton {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 50px; /* Adjust padding to control button size */
+  font-size: 14px; /* Adjust font size */
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #0056b3;
+}
+
+

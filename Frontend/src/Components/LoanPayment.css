@@ -1,0 +1,42 @@
+.dialogue-box {
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the dialogue box horizontally */
+    margin-top: 20vh; /* Adjust the top margin to center vertically */
+    padding: 20px;
+    border-radius: 10px; /* Increase the border radius for a curved appearance */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a box shadow */
+    background-color: 'rgba(242, 242, 242, 0.8)';/* Set a background color */
+    max-height: 600px;
+  }
+  
+  .dialogue-box form {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
+  
+  .dialogue-box label {
+    margin-bottom: 10px;
+    font-weight: bold; /* Add font weight for better text visibility */
+  }
+  
+  .dialogue-box input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add a border to the input fields */
+    border-radius: 4px;
+  }
+  
+  .dialogue-box button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dialogue-box button:hover {
+    background-color: #45a049;
+  }
+  

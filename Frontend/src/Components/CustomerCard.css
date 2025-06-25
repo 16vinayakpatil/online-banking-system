@@ -1,0 +1,47 @@
+/* CustomerCard.css */
+.customer-card {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: #f7f7f7;
+  }
+  
+  .customer-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .customer-card div {
+    margin-bottom: 10px;
+  }
+  
+  .customer-card input[type="text"],
+  .customer-card input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .customer-card .button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .customer-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add space between buttons */
+  .customer-card button:not(:last-child) {
+    margin-right: 10px;
+  }
+  

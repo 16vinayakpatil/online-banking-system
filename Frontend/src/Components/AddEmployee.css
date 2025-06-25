@@ -1,0 +1,37 @@
+.add-employee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+  }
+  
+  .add-employee-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .employee-form {
+    width: 50%;
+  }
+  
+  .employee-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .employee-form label {
+    font-weight: bold;
+  }
+  
+  .employee-form input,
+  .employee-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+  
+  .employee-form button[type="submit"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  

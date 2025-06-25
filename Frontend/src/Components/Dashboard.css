@@ -1,0 +1,9 @@
+.container-fluid {
+    height: 100vh; /* Set the height of the container to full viewport height */
+    overflow: hidden; /* Hide the overflow to prevent scrolling */
+  }
+/*   
+  body {
+    overflow: hidden; 
+  } 
+    */
